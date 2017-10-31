@@ -1,0 +1,6 @@
+		FROM centos
+		
+		RUN mkdir -p /htab01/absftwr
+		RUN mkdir -p /htab01/abdata/abfss
+		RUN mkdir -p /htab01/abdata/abfs0
+		RUN mkdir -p /htab01/abdata/abfs1
